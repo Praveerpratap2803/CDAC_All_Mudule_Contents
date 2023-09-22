@@ -1,0 +1,122 @@
+Basic Questions :
+
+Q1. What are components of a computer ?
+Ans Cpu, memory , input / output devices.
+
+Q2. Which CPU are you using in you laptop / mobile / PC ?
+Ans 12th Gen Intel(R) Core(TM) i5-1235U   1.30 GHz.
+
+Q3. What is size of RAM in your PC ?
+Ans 16Gb
+
+Q4. Read Python documentation from
+https://docs.python.org/3/tutorial/index.html
+
+Q5. What are different implementations of Python ? Which implementation we are using ?
+Ans Different implementation of python are CLPython, Pyston, Psyco, Cython, IPython.We are using CPython
+
+Q6. Who created python ? in which year ? where ?
+Ans Guido van Rossum , 1991 , Centrum Wiskunde & Informatica (CWI) 
+
+Q7. What is PVM ?
+Ans To convert the byte code instructions into machine code so the computer can execute those machine code instructions and display the output.
+
+Q8. Python is platform independent or not ? Which platforms python can run ?
+Ans Python is platform independent , can runs on windows, linux , mac.
+
+Q9. Why python is platform independent ? What makes it platform independent ?
+Ans Because python code is firstly compiled , which converts the code into byte code and that byte code can run on any m/c thats why python is platform independent. And that byte code is interpreted line by line by interpreter.
+
+Q10. WAP to Print "Hello IACSD" and write comment describing author of the program and date created
+Ans 
+print("Hello IACSD")
+"""
+author - Praveer
+date - 18/9/2023
+"""  
+
+Q11. Find working of various functions (min 7) from math library of python which is provided as standard library. 
+https://docs.python.org/3/library/math.html
+You can also try it yourself.
+Ex. 
+import math
+print(math.factorial(4))
+print(math.sin(90))
+Ans import math
+
+value1 = math.ceil(2.1)
+print("",value1) 
+
+value2 = math.comb(20, 9)#selecting 9 outof 20 items
+print(value2)
+
+value3 = math.perm(20,9)#selection and arrangement
+print(value3)
+
+value4 = math.floor(2.9)
+print("floor value of ",2.9," is",value4)
+
+value5 = math.remainder(10, 3)
+print(value5)
+
+value6 = math.pow(2, 3)
+print(value6)
+
+value7 = math.sqrt(64)
+print(value7)
+
+Q12. Open spyder IDE and create a python program (.py file) to print Hello world!. Run the program and check the put on console.
+Ans output Hello world!
+Q13.WAP using spyder IDE.  Import math library and print the gcd, lcm of two numbers.
+Ans import math
+
+value8 = math.gcd(18, 12)
+print(value8)
+
+value9 = math.lcm(18,12)
+print(value9)
+ 
+Q14. WAP using spyder IDE. Use math library. Print number of options you have, when you are given 5 different characters and you need to select 3 of them without repeatitions. (find permutations)
+Ans import math
+
+value10 = math.perm(5,3)
+print(value10)
+
+Q15. WAP using spyder IDE. Use math library. Print number of options you have to select 20 students out of 60 without repeatitions. ( Obviously here order doesn't matter, so find combinations) 
+Ans import math
+value11 = math.comb(60, 20)
+print(value11)
+
+Q16. WAP using spyder IDE. Use math library. Try to find log of zero. Which error is given ? 
+Also try to find square root of any negative number. What error is give?
+Ans error - math domain error
+
+Q17. WAP to create a variable v1 and store any number. Find the square root of that number by using v1 in math.sqrt() function.
+Ans import math
+v1 = 10
+print(math.sqrt(v1))
+
+Q18. Why python is considered as slow compared to C, C++ ?
+Refer : https://stackoverflow.com/questions/3033329/why-are-python-programs-often-slower-than-the-equivalent-program-written-in-c-or
+Ans
+Q19. Check where .pyc files are stored after you run the program for Q15. 
+Ans
+
+Advanced Assignments
+Q. What are different extensions supported by python?
+What is meaning of .py , .pyc, .pyz, .pyo, .pyd , etc extensions supported by python ?
+Ans
+Q. Check what happens if we print math.sqrt without any parnthesis ? What happens if we print math.sqrt() without passing any number to it?
+Ans
+Q. Can we convert .pyc file to python code? how?
+Ans
+Q. What is Global Interpreter Lock (GIL)?
+Ans
+Q. Which language is used to write python interpreter?
+Ans
+Q. What is advantage of garbage collector over manual memory management by the programmer ?
+Ans
+Q. When variable is created what is on stack and what part is on heap ?
+Ans
+Q. What is garbage collector ? How reference counting works ?
+Ans
