@@ -1,0 +1,22 @@
+Practise
+
+
+Assignment 3
+
+31
+create table mydept_DBDA ( deptid number primary key, dname varchar2(20) not null unique,dloc varchar2(20));
+
+create table myemployee ( empno number(5) primary key, fname varchar2(10) not null ,mname varchar2(15),Iname varchar2(15) not null,sal number(9,2) check(sal>=1000),doj date default sysdate,passportnum varchar2(15) unique,deptno number constraint fk_deptno references mydept_DBDA(deptid) on delete cascade);
+32
+ create table Student( sid number primary key,sname varchar2(20) );
+
+create table Course( cid number primary key,cname varchar2(20) );
+
+create table marks(studid number,courseid number,marks number,constraint pk primary key(studid,courseid),constraint fk_sid foreign key (studid) references student(sid) on delete cascade,constraint fk_cid foreign key (courseid) references course(cid));
+
+insert into Student values(1,'Praveer');
+
+insert into Student values(2,'Tejveer');
+33
+
+
