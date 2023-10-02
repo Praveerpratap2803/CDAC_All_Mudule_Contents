@@ -1,11 +1,34 @@
---Assignment Day 2
 
 --Practise
 
+--Concatenation
+select 'Hello' || 'Hi ' || 'Praveer ' || ename good from emp;--only single quotes
+select concat(ename,empno) from emp;
+select distinct job from emp;--o/p like a set
+select * from emp;
+select * from emp order by ename desc;
+--group by
+select job,count(sal) from emp group by job;
+select deptno,job,count(sal) from emp where job='ANALYST' group by deptno,job;
+select deptno,count(job) from emp where job='ANALYST' group by deptno;
+select mgr,count(mgr) from emp where job='MANAGER' group by mgr; 
 
+--Single row function
+--number function
+select abs(-9) from dual;
+select sqrt(9) from dual;
+select round(9.2323,2) from dual;
+--string function
+--Date function
+select add_months(sysdate,4) from dual;
+select next_day(sysdate,'monday') from dual;
+select current_date from dual; 
+select current_timestamp from dual;
 
-
-
+--Conversion of data type
+select to_char(sysdate,'dd/mm/yyyy') from dual;
+select to_number('123234','1,21,212') from dual;
+select to_date('03/10/2023','dd/mm/yyyy') from dual;
 
 
 --Assignment 2
