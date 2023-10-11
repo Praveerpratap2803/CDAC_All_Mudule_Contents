@@ -32,6 +32,8 @@ select ename ,case when comm is null then 'need improvement' when comm >0 then '
 --view
 select * from emp;
 create view emp11 as select * from emp where deptno=10;
+select * from emp11;
+
 insert into emp11 values(1,'a','j',10,'01-02-23',100,10,10);
 insert into emp11 values(1,'a','j',10,'01-02-23',100,10,20);
 select * from emp12;
