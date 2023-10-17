@@ -10,3 +10,16 @@ select empno,deptno,count(sal) over(partition by deptno) from emp;-- here table 
 
 
 
+--PLSQL
+create or replace procedure display_i(empnu in number,salval out number)
+as
+begin
+	select sal into salval
+	from emp 
+	where empno=empnu;
+DBMS_OUTPUT.PUT_LINE(salval+5);
+end;
+
+variable a NUMBER;
+execute display_i(7944,:a);
+print a;
