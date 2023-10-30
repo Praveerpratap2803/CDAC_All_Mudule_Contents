@@ -1,0 +1,2 @@
+a='Praveer'
+print(a)

@@ -228,6 +228,26 @@ SELECT DEPTNO,SUM(SAL) FROM EMP WHERE JOB !='MANAGER' GROUP BY DEPTNO HAVING SUM
 
 
 
+-- For PPT date function
+select * from emp;
+select * from emp where hiredate>'16-Dec-81';
+select * from emp where hiredate>'16-Dec-81 10:00:00';
+desc emp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
