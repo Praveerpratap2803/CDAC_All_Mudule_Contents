@@ -1,0 +1,20 @@
+Q1. Apply hypothesis testing to compare number of admissions in hospital (adm column) 
+in year 2000 and 2001. 
+Write the details null hypothesis, alternative hypothesis, final conclusion
+
+
+
+Q2. Check effect of three variables cardio, Resp, Hypo on number of admissions in the hospital
+( adm column)
+
+Q3. Using the given dataset, predict number of admissions (adm column) all other columns 
+are features.
+
+
+Q4. 
+a boxplot
+b scatterplot
+c density
+d histogram
+e pie chart
+f line plot
